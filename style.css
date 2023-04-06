@@ -1,0 +1,739 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gothic&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3F7FF;
+    /* color: #fff; */
+    padding: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding-left: 550px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    background-color:  #17bad1;
+    border-radius: 50px;
+    padding: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-shadow: 0 5px 14px -3px #17bad1;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    padding-left: 20px; 
+}
+
+.hamburger-border{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.hamburger-line {
+    width: 30px;
+    height: 3px;
+    background-color: #000000;
+    margin: 5px;
+}
+  
+
+.hero-img {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 0px;
+}
+
+.aboutsection {
+    background-color: #F3F7FF;
+    padding: 60px;
+    padding-bottom: 0px;
+    /* padding-left: 120px;
+    padding-right: 120px; */
+}
+
+.about {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.aboutcontent {
+    margin-left: 100px;
+}
+
+.line {
+    border-bottom: 6px solid #0d6485;
+    width: 45px;
+    margin: 20px 0 30px;
+}
+
+.aboutcontent h2 {
+    font-family: 'Noto Sans Gothic', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 5px;
+}
+
+.text {
+    text-align: justify;
+    font-family: 'Noto Sans Gothic', sans-serif;
+    line-height: 25px;
+    font-size: medium;
+}
+
+.img {
+    height: 270px;
+}
+
+.join {
+    display: block;
+    padding: 70px;
+    align-content: center;
+    justify-content: center;
+}
+
+.join h3 {
+    font-family: 'Noto Sans Gothic', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #0DCAF0;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.join p {
+    font-family: 'Noto Sans Gothic', sans-serif;
+    text-align: center;
+}
+
+.join button {
+    font-family: 'Noto Sans Gothic', sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    background-color: #0DCAF0;
+    color: white;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 30px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+}
+
+.services h2 {
+    text-align: center;
+    font-family: 'Noto Sans Gothic', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0DCAF0;
+    padding: 40px;
+}
+
+.card {
+    /* margin-left: 120px;
+    margin-right: 120px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-content {
+    padding: 5px;
+    width: 20%;
+    padding: 20px;
+    padding-top: 5px;
+    margin: 12px;
+    box-shadow: 0 5px 14px -3px #17bad1;
+    align-content: center;
+    justify-content: center;
+}
+
+.img1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.img2 {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    margin-top: -70%;
+    padding: 10px;
+    margin-left: 100px;
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
+}
+
+
+.text h6 {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Noto Sans Gothic', sans-serif;
+    font-size: 25px;
+    margin-top: 0;
+    line-height: 3;
+}
+
+.text p {
+    text-align: center;
+    font-size: medium;
+    margin-bottom: 25px;
+    margin-top: 1px;
+    font-weight: 100;
+}
+
+.usescontainer {
+    background-image: url(./Media/image/back-use.jpg);
+    background-size: 100%;
+    height: 93.5vh;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    display: flex;
+}
+
+.usestext {
+    padding: 100px;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+.usestext h2 {
+    color: white;
+    font-family: 'Noto Sans Gothic', sans-serif;
+    font-weight: 700;
+    padding-left: 10px;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+
+.uses-content h3 {
+    color: #17bad1;
+    font-family: 'Noto Sans Gothic', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    text-align: right;
+}
+
+.uses-content p {
+    font-family: 'Noto Sans Gothic', sans-serif;
+    text-align: right;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.uses-img {
+    margin-top: 100px;
+    padding-right: 160px;
+}
+
+.animation {
+    width: 100%;
+    height: 303px;
+    background: url(./Media/image/ilustrasion-scene.png) center bottom no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.animation-content {
+    position: relative;
+    top: 276px;
+    height: 60px;
+    background-color: #212529;
+}
+
+.vehicle1{
+    position: relative;
+    bottom: 100px;
+    right: 510vh;
+    animation: vehicle1 50s linear infinite forwards;
+}
+
+.vehicle2{
+    position: relative;
+    bottom: 206px;
+    right: 443vh;
+    animation: vehicle2 20s linear infinite;
+}
+
+.vehicle3{
+    position: relative;
+    bottom: 303px;
+    left: 150vh;
+    animation: vehicle3 15s linear infinite forwards;
+}
+
+@keyframes vehicle1 {
+    0% {
+        transform: translate(0);
+    }
+    
+    100% {
+        transform: translatex(5000px);
+    }   
+}
+
+@keyframes vehicle2 {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translatex(2900px);
+    }
+}
+
+@keyframes vehicle3 {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translatex(-2500px);
+    }
+}
+
+footer{
+    background-color: #212529;
+    height: 50vh;
+    display: flex;
+}
+
+.logo{
+    width: 300px;
+}
+
+.social{
+    padding-left: 150px;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 30px;
+}
+
+.logo-container{
+    padding: 100px;
+}
+
+.company{
+    /* margin-top: 70px; */
+    padding: 70px;
+}
+
+.company h4{
+    font-family: 'Noto Sans Gothic', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.company p{
+    font-family: 'Noto Sans Gothic', sans-serif;
+    color: aqua;
+    margin-left: 1.5rem;
+    padding-left: 2rem;
+    line-height: 1.8;
+}
+
+.join-button-container{
+    padding: 100px;
+}
+
+.join-button{
+    font-family: 'Noto Sans Gothic', sans-serif;
+    font-size: 20px;
+    padding: 1.2rem;
+    width: 100%;
+    color: white;
+    background-color: #212529;
+    border: 2px solid #17bad1;
+    border-radius: 50px;
+}
+
+.join-button:hover{
+    background-color: #17bad1;
+}
+
+
+/* Styling for phones */
+@media only screen and (max-width: 600px) {
+    /* Insert your CSS styling for phones here */
+
+    .nav-links {
+        display: none;
+      }
+      .hamburger {
+        display: block;
+        margin-bottom: -1px;
+      }
+      .hamburger:hover .line {
+        background-color: #ccc;
+      }
+      header {
+        flex-direction: column;
+        padding: 20px 0;
+      }
+
+    .join {
+        padding: 40px;
+    }
+
+    .join button {
+        margin-left: 10px;
+    }
+
+    .hero-img{
+        width: 100%;
+    }
+
+    .about{
+        display: block;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .aboutsection {
+        background-color: #F3F7FF;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .aboutcontent {
+        margin-left: 0px;
+    }
+
+    .img{
+        width: 250px;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+    
+    .services h2 {
+        text-align: center;
+        font-family: 'Noto Sans Gothic', sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        color: #0DCAF0;
+        padding: 10px;
+    }
+
+    .card-content {
+        width: 75%;
+        padding-top: 5px;
+        margin: 12px;
+        box-shadow: 0 5px 14px -3px #17bad1;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .usescontainer {
+        background-image: none;
+        background-size: 100%;
+        background-color: #1250CC;
+        height: 155vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        display: block;
+        overflow: hidden;
+    }
+    
+    .uses-img {
+        margin-top: 1px;
+        padding-right: 160px;
+    }
+    
+
+    .usestext {
+        padding: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .usestext h2 {
+        color: white;
+        font-family: 'Noto Sans Gothic', sans-serif;
+        font-weight: 700;
+        padding-left: 10px;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    
+    .uses-content h3 {
+        color: #17bad1;
+        font-family: 'Noto Sans Gothic', sans-serif;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 1.2;
+        text-align: left;
+    }
+    
+    .uses-content p {
+        font-family: 'Noto Sans Gothic', sans-serif;
+        text-align: left;
+        color: white;
+        margin-bottom: 50px;
+    }
+
+    footer{
+        background-color: #212529;
+        height: 150vh;
+        display: block;
+        width: 100%;
+    }
+    
+    
+    .logo{
+        width: 200px;
+    }
+    
+    .social{
+        padding-left: 100px;
+    }
+    
+    .fa-brands {
+        color: white;
+        font-size: 30px;
+    }
+    
+    .logo-container{
+        padding: 100px;
+    }
+    
+    .company{
+        /* margin-top: 70px; */
+        padding: 70px;
+    }
+    
+    .company h4{
+        font-family: 'Noto Sans Gothic', sans-serif;
+        color: white;
+        font-weight: 700;
+        font-size: 1rem;
+        margin-left: 3rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .company p{
+        font-family: 'Noto Sans Gothic', sans-serif;
+        color: aqua;
+        margin-left: 1.5rem;
+        padding-left: 2rem;
+        line-height: 1.8;
+    }
+    
+    .join-button-container{
+        padding: 100px;
+    }
+
+
+
+
+  }
+  
+  /* Styling for tablets */
+  @media only screen and (min-width: 601px) and (max-width: 992px) {
+    /* Insert your CSS styling for tablets here */
+    .nav-links {
+        display: none;
+      }
+      .hamburger {
+        display: block;
+        margin-bottom: -1px;
+      }
+      .hamburger:hover .line {
+        background-color: #ccc;
+      }
+      header {
+        flex-direction: column;
+        padding: 20px 0;
+      }
+
+      .aboutimg{
+            align-content: center;
+            justify-content: center;
+      }
+      .about{
+        display: block;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .aboutsection {
+        background-color: #F3F7FF;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .aboutcontent {
+        margin-left: 0px;
+    }
+
+    .img2 {
+        margin-top: -50%;
+        margin-left: 15px;
+    }
+
+    .usescontainer {
+        background-image: none;
+        background-size: 100%;
+        background-color: #1250CC;
+        height: 98vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        display: block;
+        overflow: hidden;
+    }
+    
+    .uses-img {
+        margin-top: 1px;
+        padding-left: 160px;
+    }
+    
+
+    .usestext {
+        padding: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .usestext h2 {
+        color: white;
+        font-family: 'Noto Sans Gothic', sans-serif;
+        font-weight: 700;
+        padding-left: 10px;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    
+    .uses-content h3 {
+        color: #17bad1;
+        font-family: 'Noto Sans Gothic', sans-serif;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 1.2;
+        text-align: left;
+    }
+    
+    .uses-content p {
+        font-family: 'Noto Sans Gothic', sans-serif;
+        text-align: left;
+        color: white;
+        margin-bottom: 50px;
+    }
+
+    footer{
+        background-color: #212529;
+        height: 280vh;
+        display: block;
+        width: 100%;
+    }
+    
+    
+    .logo{
+        width: 200px;
+    }
+    
+    .social{
+        padding-left: 100px;
+    }
+    
+    .fa-brands {
+        color: white;
+        font-size: 30px;
+    }
+    
+    .logo-container{
+        padding: 100px;
+    }
+    
+    .company{
+        /* margin-top: 70px; */
+        padding: 70px;
+    }
+    
+    .company h4{
+        font-family: 'Noto Sans Gothic', sans-serif;
+        color: white;
+        font-weight: 700;
+        font-size: 1rem;
+        margin-left: 3rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .company p{
+        font-family: 'Noto Sans Gothic', sans-serif;
+        color: aqua;
+        margin-left: 1.5rem;
+        padding-left: 2rem;
+        line-height: 1.8;
+    }
+    
+    .join-button-container{
+        padding: 100px;
+    }
+
+    .join button{
+        margin-left: 215px;
+    }
+    
+  }
+  
+  /* Styling for laptops and desktops */
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+    /* Insert your CSS styling for laptops and desktops here */
+
+    .card {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+  }
+  
+  /* Styling for TV screens */
+  @media only screen and (min-width: 1201px) {
+    /* Insert your CSS styling for TV screens here */
+  }
+  
+
